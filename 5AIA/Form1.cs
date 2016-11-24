@@ -20,7 +20,7 @@ namespace _5AIA
         private void btnScalaberni_Click(object sender, EventArgs e)
         {
             // Launch browser to my blog...
-            System.Diagnostics.Process.Start("giuliascalaberni.wordpress.com");
+            System.Diagnostics.Process.Start("http://giuliascalaberni.wordpress.com");
         }
     }
 }
