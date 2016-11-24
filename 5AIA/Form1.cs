@@ -16,5 +16,11 @@ namespace _5AIA
         {
             InitializeComponent();
         }
+        //GO TO SCALABERNI GIULIA'S BLOG
+        private void btnScalaberni_Click(object sender, EventArgs e)
+        {
+            // Launch browser to my blog...
+            System.Diagnostics.Process.Start("giuliascalaberni.wordpress.com");
+        }
     }
 }
