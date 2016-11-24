@@ -16,5 +16,10 @@ namespace _5AIA
         {
             InitializeComponent();
         }
+
+        private void btnGabrieleStefani_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("www.gabrielestefani.tryalbtester.com");
+        }
     }
 }
