@@ -33,9 +33,10 @@
             // 
             // btnGabrieleStefani
             // 
+            this.btnGabrieleStefani.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGabrieleStefani.Location = new System.Drawing.Point(12, 12);
             this.btnGabrieleStefani.Name = "btnGabrieleStefani";
-            this.btnGabrieleStefani.Size = new System.Drawing.Size(90, 23);
+            this.btnGabrieleStefani.Size = new System.Drawing.Size(106, 23);
             this.btnGabrieleStefani.TabIndex = 0;
             this.btnGabrieleStefani.Text = "Gabriele Stefani";
             this.btnGabrieleStefani.UseVisualStyleBackColor = true;
