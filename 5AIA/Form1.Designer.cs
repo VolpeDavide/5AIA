@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-
             this.btnScalaberni = new System.Windows.Forms.Button();
+            this.btnGabrieleStefani = new System.Windows.Forms.Button();
+            this.btnMattiaRanfagni = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
@@ -42,9 +43,6 @@
             this.btnScalaberni.Text = "Scalaberni Giulia";
             this.btnScalaberni.UseVisualStyleBackColor = true;
             this.btnScalaberni.Click += new System.EventHandler(this.btnScalaberni_Click);
-
-            this.btnGabrieleStefani = new System.Windows.Forms.Button();
-            this.SuspendLayout();
             // 
             // btnGabrieleStefani
             // 
@@ -56,16 +54,24 @@
             this.btnGabrieleStefani.Text = "Gabriele Stefani";
             this.btnGabrieleStefani.UseVisualStyleBackColor = true;
             this.btnGabrieleStefani.Click += new System.EventHandler(this.btnGabrieleStefani_Click);
-
+            // 
+            // btnMattiaRanfagni
+            // 
+            this.btnMattiaRanfagni.Location = new System.Drawing.Point(124, 12);
+            this.btnMattiaRanfagni.Name = "btnMattiaRanfagni";
+            this.btnMattiaRanfagni.Size = new System.Drawing.Size(109, 23);
+            this.btnMattiaRanfagni.TabIndex = 1;
+            this.btnMattiaRanfagni.Text = "Mattia Ranfagni";
+            this.btnMattiaRanfagni.UseVisualStyleBackColor = true;
+            this.btnMattiaRanfagni.Click += new System.EventHandler(this.btnMattiaRanfagni_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
-            this.ClientSize = new System.Drawing.Size(396, 284);
-            this.Controls.Add(this.btnScalaberni);
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnMattiaRanfagni);
+            this.Controls.Add(this.btnScalaberni);
             this.Controls.Add(this.btnGabrieleStefani);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -77,6 +83,7 @@
         
         private System.Windows.Forms.Button btnScalaberni;
         private System.Windows.Forms.Button btnGabrieleStefani;
+        private System.Windows.Forms.Button btnMattiaRanfagni;
     }
 }
 
