@@ -28,31 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnScalaberni = new System.Windows.Forms.Button();
             this.btnGabrieleStefani = new System.Windows.Forms.Button();
             this.btnMattiaRanfagni = new System.Windows.Forms.Button();
             this.btnCalamandrei = new System.Windows.Forms.Button();
             this.matteocorsi = new System.Windows.Forms.Button();
             this.bttnMargheritaMugnai = new System.Windows.Forms.Button();
+            this.btnEmanueleMartinelli = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
             // 
-            this.btnScalaberni.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnScalaberni.Location = new System.Drawing.Point(12, 231);
+            this.btnScalaberni.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScalaberni.ForeColor = System.Drawing.Color.Black;
+            this.btnScalaberni.Location = new System.Drawing.Point(12, 157);
             this.btnScalaberni.Name = "btnScalaberni";
-            this.btnScalaberni.Size = new System.Drawing.Size(154, 23);
+            this.btnScalaberni.Size = new System.Drawing.Size(145, 23);
             this.btnScalaberni.TabIndex = 0;
-            this.btnScalaberni.Text = "Scalaberni Giulia";
+            this.btnScalaberni.Text = "Giulia Scalaberni";
             this.btnScalaberni.UseVisualStyleBackColor = true;
             this.btnScalaberni.Click += new System.EventHandler(this.btnScalaberni_Click);
             // 
             // btnGabrieleStefani
             // 
-            this.btnGabrieleStefani.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGabrieleStefani.Location = new System.Drawing.Point(12, 12);
+            this.btnGabrieleStefani.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGabrieleStefani.Location = new System.Drawing.Point(12, 128);
             this.btnGabrieleStefani.Name = "btnGabrieleStefani";
-            this.btnGabrieleStefani.Size = new System.Drawing.Size(106, 23);
+            this.btnGabrieleStefani.Size = new System.Drawing.Size(138, 23);
             this.btnGabrieleStefani.TabIndex = 0;
             this.btnGabrieleStefani.Text = "Gabriele Stefani";
             this.btnGabrieleStefani.UseVisualStyleBackColor = true;
@@ -60,9 +63,10 @@
             // 
             // btnMattiaRanfagni
             // 
-            this.btnMattiaRanfagni.Location = new System.Drawing.Point(124, 12);
+            this.btnMattiaRanfagni.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMattiaRanfagni.Location = new System.Drawing.Point(12, 99);
             this.btnMattiaRanfagni.Name = "btnMattiaRanfagni";
-            this.btnMattiaRanfagni.Size = new System.Drawing.Size(109, 23);
+            this.btnMattiaRanfagni.Size = new System.Drawing.Size(135, 23);
             this.btnMattiaRanfagni.TabIndex = 1;
             this.btnMattiaRanfagni.Text = "Mattia Ranfagni";
             this.btnMattiaRanfagni.UseVisualStyleBackColor = true;
@@ -70,10 +74,10 @@
             // 
             // btnCalamandrei
             // 
-            this.btnCalamandrei.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalamandrei.Location = new System.Drawing.Point(12, 41);
+            this.btnCalamandrei.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalamandrei.Location = new System.Drawing.Point(12, 12);
             this.btnCalamandrei.Name = "btnCalamandrei";
-            this.btnCalamandrei.Size = new System.Drawing.Size(114, 23);
+            this.btnCalamandrei.Size = new System.Drawing.Size(170, 23);
             this.btnCalamandrei.TabIndex = 2;
             this.btnCalamandrei.Text = "Lorenzo Calamandrei";
             this.btnCalamandrei.UseVisualStyleBackColor = true;
@@ -81,11 +85,12 @@
             // 
             // matteocorsi
             // 
-            this.matteocorsi.Location = new System.Drawing.Point(132, 41);
+            this.matteocorsi.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.matteocorsi.Location = new System.Drawing.Point(12, 41);
             this.matteocorsi.Name = "matteocorsi";
-            this.matteocorsi.Size = new System.Drawing.Size(75, 23);
+            this.matteocorsi.Size = new System.Drawing.Size(114, 23);
             this.matteocorsi.TabIndex = 3;
-            this.matteocorsi.Text = "matteo corsi";
+            this.matteocorsi.Text = "Matteo Corsi";
             this.matteocorsi.UseVisualStyleBackColor = true;
             this.matteocorsi.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -98,6 +103,17 @@
             this.bttnMargheritaMugnai.Text = "Margherita Mugnai";
             this.bttnMargheritaMugnai.UseVisualStyleBackColor = true;
             this.bttnMargheritaMugnai.Click += new System.EventHandler(this.bttnMargheritaMugnai_Click);
+	    //	
+            // btnEmanueleMartinelli
+            // 
+            this.btnEmanueleMartinelli.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmanueleMartinelli.Location = new System.Drawing.Point(12, 70);
+            this.btnEmanueleMartinelli.Name = "btnEmanueleMartinelli";
+            this.btnEmanueleMartinelli.Size = new System.Drawing.Size(163, 23);
+            this.btnEmanueleMartinelli.TabIndex = 4;
+            this.btnEmanueleMartinelli.Text = "Emanuele Martinelli";
+            this.btnEmanueleMartinelli.UseVisualStyleBackColor = true;
+            this.btnEmanueleMartinelli.Click += new System.EventHandler(this.btnEmanueleMartinelli_Click);
             // 
             // Form1
             // 
@@ -105,13 +121,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.bttnMargheritaMugnai);
+            this.ClientSize = new System.Drawing.Size(480, 385);
+            this.Controls.Add(this.btnEmanueleMartinelli);
             this.Controls.Add(this.matteocorsi);
             this.Controls.Add(this.btnCalamandrei);
             this.Controls.Add(this.btnMattiaRanfagni);
             this.Controls.Add(this.btnScalaberni);
             this.Controls.Add(this.btnGabrieleStefani);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "I blog della 5^A-IA";
             this.ResumeLayout(false);
 
         }
@@ -124,6 +143,7 @@
         private System.Windows.Forms.Button btnCalamandrei;
         private System.Windows.Forms.Button matteocorsi;
         private System.Windows.Forms.Button bttnMargheritaMugnai;
+        private System.Windows.Forms.Button btnEmanueleMartinelli;
     }
 }
 

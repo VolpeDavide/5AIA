@@ -49,6 +49,12 @@ namespace _5AIA
         private void bttnMargheritaMugnai_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://mugnaimargherita.wordpress.com");
+
+	}
+
+        private void btnEmanueleMartinelli_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://martinelliemanueleblog.wordpress.com");
         }
     }
 }
