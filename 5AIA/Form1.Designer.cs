@@ -42,7 +42,7 @@
             // 
             this.btnScalaberni.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScalaberni.ForeColor = System.Drawing.Color.Black;
-            this.btnScalaberni.Location = new System.Drawing.Point(12, 157);
+            this.btnScalaberni.Location = new System.Drawing.Point(12, 186);
             this.btnScalaberni.Name = "btnScalaberni";
             this.btnScalaberni.Size = new System.Drawing.Size(145, 23);
             this.btnScalaberni.TabIndex = 0;
@@ -53,7 +53,7 @@
             // btnGabrieleStefani
             // 
             this.btnGabrieleStefani.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGabrieleStefani.Location = new System.Drawing.Point(12, 128);
+            this.btnGabrieleStefani.Location = new System.Drawing.Point(12, 157);
             this.btnGabrieleStefani.Name = "btnGabrieleStefani";
             this.btnGabrieleStefani.Size = new System.Drawing.Size(138, 23);
             this.btnGabrieleStefani.TabIndex = 0;
@@ -64,7 +64,7 @@
             // btnMattiaRanfagni
             // 
             this.btnMattiaRanfagni.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMattiaRanfagni.Location = new System.Drawing.Point(12, 99);
+            this.btnMattiaRanfagni.Location = new System.Drawing.Point(12, 128);
             this.btnMattiaRanfagni.Name = "btnMattiaRanfagni";
             this.btnMattiaRanfagni.Size = new System.Drawing.Size(135, 23);
             this.btnMattiaRanfagni.TabIndex = 1;
@@ -96,14 +96,15 @@
             // 
             // bttnMargheritaMugnai
             // 
-            this.bttnMargheritaMugnai.Location = new System.Drawing.Point(12, 70);
+            this.bttnMargheritaMugnai.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnMargheritaMugnai.Location = new System.Drawing.Point(12, 99);
             this.bttnMargheritaMugnai.Name = "bttnMargheritaMugnai";
-            this.bttnMargheritaMugnai.Size = new System.Drawing.Size(114, 23);
+            this.bttnMargheritaMugnai.Size = new System.Drawing.Size(163, 23);
             this.bttnMargheritaMugnai.TabIndex = 4;
             this.bttnMargheritaMugnai.Text = "Margherita Mugnai";
             this.bttnMargheritaMugnai.UseVisualStyleBackColor = true;
             this.bttnMargheritaMugnai.Click += new System.EventHandler(this.bttnMargheritaMugnai_Click);
-	    //	
+            // 
             // btnEmanueleMartinelli
             // 
             this.btnEmanueleMartinelli.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -119,9 +120,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.bttnMargheritaMugnai);
             this.ClientSize = new System.Drawing.Size(480, 385);
+            this.Controls.Add(this.bttnMargheritaMugnai);
             this.Controls.Add(this.btnEmanueleMartinelli);
             this.Controls.Add(this.matteocorsi);
             this.Controls.Add(this.btnCalamandrei);
