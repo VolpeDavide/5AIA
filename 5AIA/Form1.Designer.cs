@@ -37,6 +37,7 @@
             this.bttnMargheritaMugnai = new System.Windows.Forms.Button();
             this.btnEmanueleMartinelli = new System.Windows.Forms.Button();
             this.bttnRobertBanari = new System.Windows.Forms.Button();
+            this.btnCaterina = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
@@ -45,7 +46,7 @@
             this.btnScalaberni.ForeColor = System.Drawing.Color.Black;
             this.btnScalaberni.Location = new System.Drawing.Point(12, 186);
             this.btnScalaberni.Name = "btnScalaberni";
-            this.btnScalaberni.Size = new System.Drawing.Size(145, 23);
+            this.btnScalaberni.Size = new System.Drawing.Size(163, 23);
             this.btnScalaberni.TabIndex = 0;
             this.btnScalaberni.Text = "Giulia Scalaberni";
             this.btnScalaberni.UseVisualStyleBackColor = true;
@@ -56,7 +57,7 @@
             this.btnGabrieleStefani.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGabrieleStefani.Location = new System.Drawing.Point(12, 157);
             this.btnGabrieleStefani.Name = "btnGabrieleStefani";
-            this.btnGabrieleStefani.Size = new System.Drawing.Size(138, 23);
+            this.btnGabrieleStefani.Size = new System.Drawing.Size(163, 23);
             this.btnGabrieleStefani.TabIndex = 0;
             this.btnGabrieleStefani.Text = "Gabriele Stefani";
             this.btnGabrieleStefani.UseVisualStyleBackColor = true;
@@ -67,7 +68,7 @@
             this.btnMattiaRanfagni.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMattiaRanfagni.Location = new System.Drawing.Point(12, 128);
             this.btnMattiaRanfagni.Name = "btnMattiaRanfagni";
-            this.btnMattiaRanfagni.Size = new System.Drawing.Size(135, 23);
+            this.btnMattiaRanfagni.Size = new System.Drawing.Size(163, 23);
             this.btnMattiaRanfagni.TabIndex = 1;
             this.btnMattiaRanfagni.Text = "Mattia Ranfagni";
             this.btnMattiaRanfagni.UseVisualStyleBackColor = true;
@@ -78,7 +79,7 @@
             this.btnCalamandrei.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalamandrei.Location = new System.Drawing.Point(12, 12);
             this.btnCalamandrei.Name = "btnCalamandrei";
-            this.btnCalamandrei.Size = new System.Drawing.Size(170, 23);
+            this.btnCalamandrei.Size = new System.Drawing.Size(163, 23);
             this.btnCalamandrei.TabIndex = 2;
             this.btnCalamandrei.Text = "Lorenzo Calamandrei";
             this.btnCalamandrei.UseVisualStyleBackColor = true;
@@ -87,9 +88,9 @@
             // matteocorsi
             // 
             this.matteocorsi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.matteocorsi.Location = new System.Drawing.Point(12, 41);
+            this.matteocorsi.Location = new System.Drawing.Point(13, 41);
             this.matteocorsi.Name = "matteocorsi";
-            this.matteocorsi.Size = new System.Drawing.Size(114, 23);
+            this.matteocorsi.Size = new System.Drawing.Size(162, 23);
             this.matteocorsi.TabIndex = 3;
             this.matteocorsi.Text = "Matteo Corsi";
             this.matteocorsi.UseVisualStyleBackColor = true;
@@ -122,18 +123,30 @@
             this.bttnRobertBanari.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnRobertBanari.Location = new System.Drawing.Point(12, 215);
             this.bttnRobertBanari.Name = "bttnRobertBanari";
-            this.bttnRobertBanari.Size = new System.Drawing.Size(125, 23);
+            this.bttnRobertBanari.Size = new System.Drawing.Size(162, 23);
             this.bttnRobertBanari.TabIndex = 5;
             this.bttnRobertBanari.Text = "Robert Banari";
             this.bttnRobertBanari.UseVisualStyleBackColor = true;
             this.bttnRobertBanari.Click += new System.EventHandler(this.bttnRobertBanari_Click);
             // 
+            // btnCaterina
+            // 
+            this.btnCaterina.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCaterina.Location = new System.Drawing.Point(12, 244);
+            this.btnCaterina.Name = "btnCaterina";
+            this.btnCaterina.Size = new System.Drawing.Size(162, 24);
+            this.btnCaterina.TabIndex = 5;
+            this.btnCaterina.Text = "Caterina Mannelli";
+            this.btnCaterina.UseVisualStyleBackColor = true;
+            this.btnCaterina.Click += new System.EventHandler(this.btnCaterina_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(480, 385);
             this.Controls.Add(this.bttnRobertBanari);
+            this.Controls.Add(this.btnCaterina);
             this.Controls.Add(this.bttnMargheritaMugnai);
             this.Controls.Add(this.btnEmanueleMartinelli);
             this.Controls.Add(this.matteocorsi);
@@ -158,6 +171,7 @@
         private System.Windows.Forms.Button bttnMargheritaMugnai;
         private System.Windows.Forms.Button btnEmanueleMartinelli;
         private System.Windows.Forms.Button bttnRobertBanari;
+        private System.Windows.Forms.Button btnCaterina;
     }
 }
 
