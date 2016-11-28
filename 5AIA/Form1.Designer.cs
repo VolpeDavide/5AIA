@@ -33,6 +33,7 @@
             this.btnMattiaRanfagni = new System.Windows.Forms.Button();
             this.btnCalamandrei = new System.Windows.Forms.Button();
             this.matteocorsi = new System.Windows.Forms.Button();
+            this.bttnMargheritaMugnai = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
@@ -88,11 +89,22 @@
             this.matteocorsi.UseVisualStyleBackColor = true;
             this.matteocorsi.Click += new System.EventHandler(this.button1_Click);
             // 
+            // bttnMargheritaMugnai
+            // 
+            this.bttnMargheritaMugnai.Location = new System.Drawing.Point(12, 70);
+            this.bttnMargheritaMugnai.Name = "bttnMargheritaMugnai";
+            this.bttnMargheritaMugnai.Size = new System.Drawing.Size(114, 23);
+            this.bttnMargheritaMugnai.TabIndex = 4;
+            this.bttnMargheritaMugnai.Text = "Margherita Mugnai";
+            this.bttnMargheritaMugnai.UseVisualStyleBackColor = true;
+            this.bttnMargheritaMugnai.Click += new System.EventHandler(this.bttnMargheritaMugnai_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.bttnMargheritaMugnai);
             this.Controls.Add(this.matteocorsi);
             this.Controls.Add(this.btnCalamandrei);
             this.Controls.Add(this.btnMattiaRanfagni);
@@ -111,6 +123,7 @@
         private System.Windows.Forms.Button btnMattiaRanfagni;
         private System.Windows.Forms.Button btnCalamandrei;
         private System.Windows.Forms.Button matteocorsi;
+        private System.Windows.Forms.Button bttnMargheritaMugnai;
     }
 }
 

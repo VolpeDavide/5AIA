@@ -45,5 +45,10 @@ namespace _5AIA
         {
             System.Diagnostics.Process.Start("https://matteocorsi98.wordpress.com");
         }
+
+        private void bttnMargheritaMugnai_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://mugnaimargherita.wordpress.com");
+        }
     }
 }
