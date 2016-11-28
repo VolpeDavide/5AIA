@@ -60,6 +60,7 @@ namespace _5AIA
         private void bttnRobertBanari_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://robertbanariblog.wordpress.com/");
+        }
         private void btnCaterina_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://mannellicaterina.wordpress.com");
