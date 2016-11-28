@@ -31,6 +31,7 @@
             this.btnScalaberni = new System.Windows.Forms.Button();
             this.btnGabrieleStefani = new System.Windows.Forms.Button();
             this.btnMattiaRanfagni = new System.Windows.Forms.Button();
+            this.btnCalamandrei = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
@@ -65,11 +66,23 @@
             this.btnMattiaRanfagni.UseVisualStyleBackColor = true;
             this.btnMattiaRanfagni.Click += new System.EventHandler(this.btnMattiaRanfagni_Click);
             // 
+            // btnCalamandrei
+            // 
+            this.btnCalamandrei.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalamandrei.Location = new System.Drawing.Point(12, 41);
+            this.btnCalamandrei.Name = "btnCalamandrei";
+            this.btnCalamandrei.Size = new System.Drawing.Size(114, 23);
+            this.btnCalamandrei.TabIndex = 2;
+            this.btnCalamandrei.Text = "Lorenzo Calamandrei";
+            this.btnCalamandrei.UseVisualStyleBackColor = true;
+            this.btnCalamandrei.Click += new System.EventHandler(this.btnBlogCalamandrei_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnCalamandrei);
             this.Controls.Add(this.btnMattiaRanfagni);
             this.Controls.Add(this.btnScalaberni);
             this.Controls.Add(this.btnGabrieleStefani);
@@ -84,6 +97,7 @@
         private System.Windows.Forms.Button btnScalaberni;
         private System.Windows.Forms.Button btnGabrieleStefani;
         private System.Windows.Forms.Button btnMattiaRanfagni;
+        private System.Windows.Forms.Button btnCalamandrei;
     }
 }
 

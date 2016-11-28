@@ -35,5 +35,10 @@ namespace _5AIA
         {
             System.Diagnostics.Process.Start("http://mattiaranfagni.wordpress.com");
         }
+
+        private void btnBlogCalamandrei_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.calamandrei-lorenzo.it");
+        }
     }
 }
