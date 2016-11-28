@@ -40,5 +40,10 @@ namespace _5AIA
         {
             System.Diagnostics.Process.Start("http://www.calamandrei-lorenzo.it");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://matteocorsi98.wordpress.com");
+        }
     }
 }

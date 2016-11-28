@@ -32,6 +32,7 @@
             this.btnGabrieleStefani = new System.Windows.Forms.Button();
             this.btnMattiaRanfagni = new System.Windows.Forms.Button();
             this.btnCalamandrei = new System.Windows.Forms.Button();
+            this.matteocorsi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
@@ -77,11 +78,22 @@
             this.btnCalamandrei.UseVisualStyleBackColor = true;
             this.btnCalamandrei.Click += new System.EventHandler(this.btnBlogCalamandrei_Click);
             // 
+            // matteocorsi
+            // 
+            this.matteocorsi.Location = new System.Drawing.Point(132, 41);
+            this.matteocorsi.Name = "matteocorsi";
+            this.matteocorsi.Size = new System.Drawing.Size(75, 23);
+            this.matteocorsi.TabIndex = 3;
+            this.matteocorsi.Text = "matteo corsi";
+            this.matteocorsi.UseVisualStyleBackColor = true;
+            this.matteocorsi.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.matteocorsi);
             this.Controls.Add(this.btnCalamandrei);
             this.Controls.Add(this.btnMattiaRanfagni);
             this.Controls.Add(this.btnScalaberni);
@@ -98,6 +110,7 @@
         private System.Windows.Forms.Button btnGabrieleStefani;
         private System.Windows.Forms.Button btnMattiaRanfagni;
         private System.Windows.Forms.Button btnCalamandrei;
+        private System.Windows.Forms.Button matteocorsi;
     }
 }
 
