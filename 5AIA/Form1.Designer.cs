@@ -38,6 +38,7 @@
             this.btnEmanueleMartinelli = new System.Windows.Forms.Button();
             this.bttnRobertBanari = new System.Windows.Forms.Button();
             this.btnCaterina = new System.Windows.Forms.Button();
+            this.btnAlessandro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
@@ -140,11 +141,23 @@
             this.btnCaterina.UseVisualStyleBackColor = true;
             this.btnCaterina.Click += new System.EventHandler(this.btnCaterina_Click);
             // 
+            // btnAlessandro
+            // 
+            this.btnAlessandro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlessandro.Location = new System.Drawing.Point(13, 274);
+            this.btnAlessandro.Name = "btnAlessandro";
+            this.btnAlessandro.Size = new System.Drawing.Size(162, 24);
+            this.btnAlessandro.TabIndex = 6;
+            this.btnAlessandro.Text = "Alessandro Bertoli";
+            this.btnAlessandro.UseVisualStyleBackColor = true;
+            this.btnAlessandro.Click += new System.EventHandler(this.btnAlessandro_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(480, 385);
+            this.Controls.Add(this.btnAlessandro);
             this.Controls.Add(this.bttnRobertBanari);
             this.Controls.Add(this.btnCaterina);
             this.Controls.Add(this.bttnMargheritaMugnai);
@@ -172,6 +185,7 @@
         private System.Windows.Forms.Button btnEmanueleMartinelli;
         private System.Windows.Forms.Button bttnRobertBanari;
         private System.Windows.Forms.Button btnCaterina;
+        private System.Windows.Forms.Button btnAlessandro;
     }
 }
 

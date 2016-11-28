@@ -66,5 +66,10 @@ namespace _5AIA
             System.Diagnostics.Process.Start("http://mannellicaterina.wordpress.com");
 
         }
+
+        private void btnAlessandro_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://alessandrobertoli.tech.blog/");
+        }
     }
 }
