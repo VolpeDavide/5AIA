@@ -91,5 +91,10 @@ namespace _5AIA
         {
             System.Diagnostics.Process.Start("http://niccolofei.blogspot.it/");
         }
+
+        private void btnPapi_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://papidamiano.wordpress.com/");
+        }
     }
 }
