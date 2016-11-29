@@ -86,5 +86,10 @@ namespace _5AIA
         {
             System.Diagnostics.Process.Start("https://lucagiantomasi.wordpress.com/");
         }
+
+        private void btnFei_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://niccolofei.blogspot.it/");
+        }
     }
 }
