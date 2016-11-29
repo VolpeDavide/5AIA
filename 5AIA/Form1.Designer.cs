@@ -42,6 +42,7 @@
             this.btnAlessandro = new System.Windows.Forms.Button();
             this.btnedoardo = new System.Windows.Forms.Button();
             this.btnGiantomasi = new System.Windows.Forms.Button();
+            this.btnPapi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
@@ -190,11 +191,23 @@
             this.btnGiantomasi.UseVisualStyleBackColor = true;
             this.btnGiantomasi.Click += new System.EventHandler(this.btnGiantomasi_Click);
             // 
+            // btnPapi
+            // 
+            this.btnPapi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPapi.Location = new System.Drawing.Point(181, 12);
+            this.btnPapi.Name = "btnPapi";
+            this.btnPapi.Size = new System.Drawing.Size(162, 23);
+            this.btnPapi.TabIndex = 19;
+            this.btnPapi.Text = "Damiano Papi";
+            this.btnPapi.UseVisualStyleBackColor = true;
+            this.btnPapi.Click += new System.EventHandler(this.btnPapi_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(480, 400);
+            this.Controls.Add(this.btnPapi);
             this.Controls.Add(this.btnGiantomasi);
             this.Controls.Add(this.btnedoardo);
             this.Controls.Add(this.davidevolpe);
@@ -230,6 +243,7 @@
         private System.Windows.Forms.Button btnAlessandro;
         private System.Windows.Forms.Button btnedoardo;
         private System.Windows.Forms.Button btnGiantomasi;
+        private System.Windows.Forms.Button btnPapi;
     }
 }
 
