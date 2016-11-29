@@ -81,5 +81,10 @@ namespace _5AIA
         {
             System.Diagnostics.Process.Start("https://edoardobonanni.wordpress.com/");
         }
+
+        private void btnGiantomasi_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://lucagiantomasi.wordpress.com/");
+        }
     }
 }
