@@ -76,5 +76,10 @@ namespace _5AIA
         {
             System.Diagnostics.Process.Start("https://davidevolpeblog.wordpress.com/");
         }
+
+        private void btnedoardo_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://edoardobonanni.wordpress.com/");
+        }
     }
 }

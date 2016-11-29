@@ -38,8 +38,9 @@
             this.btnEmanueleMartinelli = new System.Windows.Forms.Button();
             this.bttnRobertBanari = new System.Windows.Forms.Button();
             this.btnCaterina = new System.Windows.Forms.Button();
-            this.btnAlessandro = new System.Windows.Forms.Button();
             this.davidevolpe = new System.Windows.Forms.Button();
+            this.btnAlessandro = new System.Windows.Forms.Button();
+            this.btnedoardo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnScalaberni
@@ -142,6 +143,19 @@
             this.btnCaterina.UseVisualStyleBackColor = true;
             this.btnCaterina.Click += new System.EventHandler(this.btnCaterina_Click);
             // 
+            // davidevolpe
+            // 
+            this.davidevolpe.BackColor = System.Drawing.Color.Salmon;
+            this.davidevolpe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.davidevolpe.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.davidevolpe.Location = new System.Drawing.Point(13, 331);
+            this.davidevolpe.Name = "davidevolpe";
+            this.davidevolpe.Size = new System.Drawing.Size(162, 24);
+            this.davidevolpe.TabIndex = 7;
+            this.davidevolpe.Text = "Davide Volpe";
+            this.davidevolpe.UseVisualStyleBackColor = false;
+            this.davidevolpe.Click += new System.EventHandler(this.davidevolpe_Click);
+            // 
             // btnAlessandro
             // 
             this.btnAlessandro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -153,24 +167,23 @@
             this.btnAlessandro.UseVisualStyleBackColor = true;
             this.btnAlessandro.Click += new System.EventHandler(this.btnAlessandro_Click);
             // 
-            // davidevolpe
+            // btnedoardo
             // 
-            this.davidevolpe.BackColor = System.Drawing.Color.Salmon;
-            this.davidevolpe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.davidevolpe.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.davidevolpe.Location = new System.Drawing.Point(12, 304);
-            this.davidevolpe.Name = "davidevolpe";
-            this.davidevolpe.Size = new System.Drawing.Size(162, 24);
-            this.davidevolpe.TabIndex = 7;
-            this.davidevolpe.Text = "Davide Volpe";
-            this.davidevolpe.UseVisualStyleBackColor = false;
-            this.davidevolpe.Click += new System.EventHandler(this.davidevolpe_Click);
+            this.btnedoardo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnedoardo.Location = new System.Drawing.Point(12, 304);
+            this.btnedoardo.Name = "btnedoardo";
+            this.btnedoardo.Size = new System.Drawing.Size(162, 21);
+            this.btnedoardo.TabIndex = 8;
+            this.btnedoardo.Text = "Edoardo Bonanni";
+            this.btnedoardo.UseVisualStyleBackColor = true;
+            this.btnedoardo.Click += new System.EventHandler(this.btnedoardo_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(480, 385);
+            this.Controls.Add(this.btnedoardo);
             this.Controls.Add(this.davidevolpe);
             this.Controls.Add(this.btnAlessandro);
             this.Controls.Add(this.bttnRobertBanari);
@@ -200,8 +213,9 @@
         private System.Windows.Forms.Button btnEmanueleMartinelli;
         private System.Windows.Forms.Button bttnRobertBanari;
         private System.Windows.Forms.Button btnCaterina;
-        private System.Windows.Forms.Button btnAlessandro;
         private System.Windows.Forms.Button davidevolpe;
+        private System.Windows.Forms.Button btnAlessandro;
+        private System.Windows.Forms.Button btnedoardo;
     }
 }
 
