@@ -71,5 +71,10 @@ namespace _5AIA
         {
             System.Diagnostics.Process.Start("https://alessandrobertoli.tech.blog/");
         }
+
+        private void davidevolpe_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://davidevolpeblog.wordpress.com/");
+        }
     }
 }
